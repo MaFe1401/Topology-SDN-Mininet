@@ -6,5 +6,5 @@ Run the controller:
 `sudo docker run -it -p 6633:6633 -p 8080:8080 -p 6653:6653 lvillatoroq/odl:hydrogen`  
 Openflow tables:  
 `sh ovs-ofctl dump-flows [switch]`  
-Switch specifications:
+Switch specifications:  
 `sh ovs-ofctl show [switch]`  
