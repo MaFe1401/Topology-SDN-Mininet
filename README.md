@@ -5,4 +5,6 @@ Mininet command to load the topology:
 Run the controller:  
 `sudo docker run -it -p 6633:6633 -p 8080:8080 -p 6653:6653 lvillatoroq/odl:hydrogen`  
 Openflow tables:  
-`sh ovs-ofctl dump-flows [switch]`
+`sh ovs-ofctl dump-flows [switch]`  
+Switch specifications:
+`sh ovs-ofctl show [switch]`  
