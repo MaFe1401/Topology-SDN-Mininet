@@ -8,3 +8,5 @@ Openflow tables:
 `sh ovs-ofctl dump-flows [switch]`  
 Switch specifications:  
 `sh ovs-ofctl show [switch]`  
+
+Marc Ferré, Albert Saez, Luis Domingo
