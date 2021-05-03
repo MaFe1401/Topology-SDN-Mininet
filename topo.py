@@ -5,8 +5,8 @@ class MyTopo(Topo):
 		#initialise topology
 		Topo.__init__(self)
 		#add hosts
-		linkOptsCore = dict(bw=200, delay='100ms')
-		linkOptsAccess=dict(bw=1000, delay='10ms')
+		linkOptsCore = dict(bw=200, delay='100ms', loss=10)
+		linkOptsAccess=dict(bw=1000, delay='10ms', loss=10)
 		h1a=self.addHost('h1a', ip='169.0.10.2')
 		h2p=self.addHost('h2p', ip='169.0.10.3')
 		h3a=self.addHost('h3a', ip='169.0.10.4')
